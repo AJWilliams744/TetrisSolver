@@ -1,5 +1,6 @@
 #tetrominoes[7][4][4][4]
 import random
+import copy
 #I, O, T, J, L, S, Z
 pieces = [
     [ #I
@@ -179,17 +180,17 @@ def FindLowest(piece):
 
 def CheckAbove(startX, endX, startY, endY, board):
     for x in range(startX, endX):
-        for y in range(startY, endY):
+        for y in range(startY, endY, -1):
             if(board[y][x] == 1):
                 return False
     return True
 
-def CheckBelow(lowest, startY, endY, board):
+def CheckBelow(lowest,startX, startY, endY, board):
     if(startY > endY):
         return True
     for x in lowest:
         for y in range(startY, startY + 1):
-            if(board[y][x] == 1):
+            if(board[y][x + startX] == 1):
                 return True
     return False
 
@@ -210,7 +211,7 @@ def FindValidPosition(board, pieceName):
     for y in range(boardHeight - maxY , 0 , -1):
         for x in range(6 - maxX + 1):
             if(CheckSquare(x, y, maxX, maxY, board, pieces[pieceData[0]][0])):
-                if(CheckAbove(x,x+maxX, y, 0, board) and CheckBelow(FindLowest(pieces[pieceData[0]][0]), y + maxY, boardHeight - 1, board)):                  
+                if(CheckAbove(x,x+maxX, y, 0, board) and CheckBelow(FindLowest(pieces[pieceData[0]][0]),x, y + maxY, boardHeight - 1, board)):                  
                     
                     validatedMoves.append([x,y])
         
@@ -224,36 +225,47 @@ def SolvePuzzle(board, puzzle):
     totalMoves = []
     print(puzzle)
 
+    bestHeight = 15
+
     global globalBoards
     globalBoards.append(board)
 
     for pieceName in puzzle:
-        
+        #pieceName = "L"
         pieceData = piecesDic[pieceName]
         piece = pieces[pieceData[0]]
-        #print(piece)
+        boardCount = len(globalBoards)
 
-        result = FindValidPosition(board, pieceName)
-        #totalMoves.append(result)
-        if(result != []):
-            x = result[0][0]
-            y = result[0][1]
-            #PrintCoor(x,y)       
-            for row in range(pieceData[2]):
-                for item in range(pieceData[1]):
-                    if (piece[0][row][item] != 0):        
-                        board[y + row][x + item] = piece[0][row][item]
-            print(pieceName)
-           # PrintBoard(board)           
+        for boardNumber in range(boardCount):
+            
 
-    # print(counter)
-    # for row in totalMoves:
-    #     for item in row:
-    #         counter += 1
-    print(counter)
-    return board
+            result = FindValidPosition(globalBoards[boardNumber], pieceName)
+            for item in result:
 
-seed = 0
+                currentBoard = []
+                currentBoard = copy.deepcopy(globalBoards[boardNumber])
+
+                x = item[0]
+                y = item[1]
+                #PrintCoor(x,y)       
+                for row in range(pieceData[2]):
+                    for item in range(pieceData[1]):
+                        if (piece[0][row][item] != 0):        
+                            currentBoard[y + row][x + item] = piece[0][row][item]
+                #print(pieceName)
+
+                globalBoards.append(currentBoard)
+            # PrintBoard(board)           
+        for boardNumber in range(boardCount):
+            del globalBoards[0]
+        # print(counter)
+        # for row in totalMoves:
+        #     for item in row:
+        #         counter += 1
+    #print(counter)
+    return globalBoards
+
+seed = 1
 
 puzzle = ["a"] * GetPuzzleSize(seed)
 
