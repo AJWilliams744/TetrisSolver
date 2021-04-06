@@ -1,6 +1,7 @@
 #tetrominoes[7][4][4][4]
 import random
 import copy
+from datetime import datetime
 #I, O, T, J, L, S, Z
 pieces = [
     [ #I
@@ -138,8 +139,17 @@ def PrintCoor(x,y):
 
 def PrintBoard(board):
     print("-----------------")
+    
     for row in board:
-        print(row)
+        print("")
+        print("|", end = "")
+        for item in row:
+            if(str(item) == "0"):
+                print(". ", end = "")
+            else:
+                print(str(item) + " ", end = "")
+        print("|", end = "")
+    print("")
     print("-----------------")
 
 def CountBoard(board):
@@ -240,30 +250,84 @@ def FindValidPosition(board, pieceName):
     return validatedMoves
 
 globalBoards = []
+def SolveRandom(board, puzzle):
+
+    currentBoard = copy.deepcopy(board)
+    for pieceName in puzzle:
+
+        pieceData = piecesDic[pieceName]
+        piece = pieces[pieceData[0]]
+
+        result = FindValidPosition(currentBoard, pieceName)
+
+        x = result[0][0]
+        y = result[0][1]
+           
+        for row in range(pieceData[2]):
+            for item in range(pieceData[1]):
+                if (piece[0][row][item] != 0):        
+                    currentBoard[y + row][x + item] = piece[0][row][item]
+
+    boardCount = CountBoard(currentBoard)
+
+    return boardCount
+
+min = 20
+bestBoard = []
+
+def SolveRecursive(board, puzzle):
+
+    global min
+    global bestBoard
+    pieceName = puzzle[0]
+
+    pieceData = piecesDic[pieceName]
+    piece = pieces[pieceData[0]]
+
+    result = FindValidPosition(board, pieceName)
+    
+    for item in result:
+        currentBoard = []
+        currentBoard = copy.deepcopy(board)
+
+        x = item[0]
+        y = item[1]
+    
+        for row in range(pieceData[2]):
+            for item in range(pieceData[1]):
+                if (piece[0][row][item] != 0):        
+                    currentBoard[y + row][x + item] = piece[0][row][item]
+        if(len(puzzle) == 1):
+            height = CountBoard(currentBoard)
+            if(height < min):
+                min = height
+                bestBoard = currentBoard
+
+        elif CountBoard(currentBoard) < min:
+
+            SolveRecursive(currentBoard, puzzle[1:])
+
+    return bestBoard
+
 
 def SolvePuzzle(board, puzzle):
     counter = 0
-    totalMoves = []
     print(puzzle)
-
-    
 
     global globalBoards
     globalBoards.append(board)
 
     for pieceName in puzzle:
-        #pieceName = "L"
+
         pieceData = piecesDic[pieceName]
         piece = pieces[pieceData[0]]
         boardCount = len(globalBoards)
 
-        for boardNumber in range(boardCount):
-            
+        for boardNumber in range(boardCount):           
 
             result = FindValidPosition(globalBoards[boardNumber], pieceName)
             
             for item in result:
-
                 currentBoard = []
                 currentBoard = copy.deepcopy(globalBoards[boardNumber])
 
@@ -276,14 +340,14 @@ def SolvePuzzle(board, puzzle):
                             currentBoard[y + row][x + item] = piece[0][row][item]
                 #print(pieceName)
                 #if(not(DoesBoardExist(globalBoards,currentBoard))):
-
+                # if(CountBoard(currentBoard) < min):
                 globalBoards.append(currentBoard)
                 #else:
                    # pass
             # PrintBoard(board)    
-            # counter += 1    
-            # if(counter % 1000 == 0):
-            #     print(counter)           
+            counter += 1    
+            if(counter % 1000 == 0):
+                print(counter)           
         del globalBoards[:boardCount]
         print(pieceName)
         # print(counter)
@@ -299,7 +363,7 @@ def SolvePuzzle(board, puzzle):
         if(boardCount < bestHeight):
             bestHeight = boardCount
             bestBoard = checkBoard
-
+    print(bestHeight)
     return bestBoard
 
 seed = 0
@@ -310,7 +374,10 @@ puzzle = GetPuzzle(seed,puzzle, len(puzzle))
 
 
 print("-------------")
-board = SolvePuzzle(board, puzzle)
+#print(SolveRandom(board,puzzle))
+print(datetime.now())
+board = SolveRecursive(board, puzzle)
+print(datetime.now())
 PrintBoard(board)
 
 
