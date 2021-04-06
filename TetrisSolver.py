@@ -142,11 +142,32 @@ def PrintBoard(board):
         print(row)
     print("-----------------")
 
+def CountBoard(board):
+    counter = 0
+    #PrintBoard(board)
+    for y in range(boardHeight - 1, -1, -1):
+        
+        found = False
+        for x in range(0,6):
+            if(board[y][x] == 1):
+                found = True
+        if(found == False):
+            return counter
+        counter += 1
+        
+    return counter           
+
 def GetPuzzleSize(seed):
     if (seed % 2):
         return 4
     else:
         return 12
+
+def DoesBoardExist(allBoards, newBoard):
+    for board in allBoards:
+        if(board == newBoard):
+            return True
+    return False
 
 def GetPuzzle(seed, puzzle, size):
 
@@ -225,7 +246,7 @@ def SolvePuzzle(board, puzzle):
     totalMoves = []
     print(puzzle)
 
-    bestHeight = 15
+    
 
     global globalBoards
     globalBoards.append(board)
@@ -240,6 +261,7 @@ def SolvePuzzle(board, puzzle):
             
 
             result = FindValidPosition(globalBoards[boardNumber], pieceName)
+            
             for item in result:
 
                 currentBoard = []
@@ -253,19 +275,34 @@ def SolvePuzzle(board, puzzle):
                         if (piece[0][row][item] != 0):        
                             currentBoard[y + row][x + item] = piece[0][row][item]
                 #print(pieceName)
+                #if(not(DoesBoardExist(globalBoards,currentBoard))):
 
                 globalBoards.append(currentBoard)
-            # PrintBoard(board)           
-        for boardNumber in range(boardCount):
-            del globalBoards[0]
+                #else:
+                   # pass
+            # PrintBoard(board)    
+            # counter += 1    
+            # if(counter % 1000 == 0):
+            #     print(counter)           
+        del globalBoards[:boardCount]
+        print(pieceName)
         # print(counter)
         # for row in totalMoves:
         #     for item in row:
-        #         counter += 1
+        #         
     #print(counter)
-    return globalBoards
+    bestBoard = globalBoards[0]
+    bestHeight = 15
+    for checkBoard in globalBoards:
+        boardCount = CountBoard(checkBoard)
+        #print(boardCount)
+        if(boardCount < bestHeight):
+            bestHeight = boardCount
+            bestBoard = checkBoard
 
-seed = 1
+    return bestBoard
+
+seed = 0
 
 puzzle = ["a"] * GetPuzzleSize(seed)
 
@@ -274,6 +311,7 @@ puzzle = GetPuzzle(seed,puzzle, len(puzzle))
 
 print("-------------")
 board = SolvePuzzle(board, puzzle)
+PrintBoard(board)
 
 
 print("----------")
