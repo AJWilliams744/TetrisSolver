@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="tetrissolver.cpp" path="C:\temp\TetrisSolverCode\tetrissolver.cpp"/>
+    <originFiles name="tetrissolver.h" path="C:\temp\TetrisSolverCode\tetrissolver.h"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="C:\temp\TetrisSolverCode\testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

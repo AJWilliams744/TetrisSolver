@@ -1,0 +1,81 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'aw1516' on host 'cse169pc-41' (Windows NT_amd64 version 6.2) on Sat Apr 10 17:23:35 +0100 2021
+INFO: [HLS 200-10] In directory 'C:/temp'
+Sourcing Tcl script 'C:/temp/TetrisSolverCode/solution1/csim.tcl'
+INFO: [HLS 200-10] Opening project 'C:/temp/TetrisSolverCode'.
+INFO: [HLS 200-10] Opening solution 'C:/temp/TetrisSolverCode/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z010-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../testbench.cpp in debug mode
+   Generating csim.exe
+In file included from C:/Xilinx/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from C:/Xilinx/Vivado/2019.1/include/hls_fpo.h:186,
+                 from C:/Xilinx/Vivado/2019.1/include/hls_half.h:44,
+                 from C:/Xilinx/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from C:/Xilinx/Vivado/2019.1/include/ap_common.h:641,
+                 from C:/Xilinx/Vivado/2019.1/include/ap_int.h:54,
+                 from ../../../tetrissolver.h:9,
+                 from ../../../testbench.cpp:1:
+C:/Xilinx/Vivado/2019.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from C:/Xilinx/Vivado/2019.1/include/hls_fpo.h:186:0,
+                 from C:/Xilinx/Vivado/2019.1/include/hls_half.h:44,
+                 from C:/Xilinx/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from C:/Xilinx/Vivado/2019.1/include/ap_common.h:641,
+                 from C:/Xilinx/Vivado/2019.1/include/ap_int.h:54,
+                 from ../../../tetrissolver.h:9,
+                 from ../../../testbench.cpp:1:
+C:/Xilinx/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+Y: 17, X: 0
+Y: 17 
+Y: 18, X: 0
+Y: 18, X: 1
+Y: 18, X: 2
+Y: 18 
+Y: 18, X: 0
+Y: 18, X: 1
+Y: 18, X: 2
+Y: 18, X: 3
+Y: 17, X: 0
+Y: 17, X: 1
+Y: 17, X: 2
+Y: 17, X: 3
+Y: 17 
+Y: 18, X: 0
+Y: 18, X: 1
+Y: 18, X: 2
+Y: 18, X: 3
+Y: 17, X: 0
+Y: 17, X: 1
+Y: 17, X: 2
+Y: 17, X: 3
+Y: 16, X: 0
+Y: 16, X: 1
+Y: 16 
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|       1  1       |
+| 1  1  1  1  1  1 |
+| 1     1  1  1    |
+| 1  1  1  1       |
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

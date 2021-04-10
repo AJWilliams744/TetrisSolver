@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T17:17:39.244+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T17:16:56.998+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:49:17.094+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:48:31.117+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:48:31.107+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:47:34.010+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:47:33.999+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:46:57.525+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:46:31.611+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:44:15.570+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:43:47.654+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:41:08.586+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:40:08.793+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:39:14.487+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:35:24.419+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:13:49.523+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T16:08:48.787+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T13:02:48.286+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T13:02:48.275+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T13:00:30.445+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T13:00:30.427+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:58:58.791+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:58:58.781+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:57:43.355+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:57:43.343+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:56:53.159+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:56:53.145+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:56:31.766+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:56:31.755+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:55:25.083+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:55:25.072+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:54:20.976+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:53:59.157+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:52:19.439+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:52:19.429+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:48:40.016+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:48:40.004+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:47:02.112+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:45:57.344+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:45:57.331+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:45:34.147+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:45:34.127+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:44:04.194+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:40:45.760+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:40:23.137+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:39:07.702+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:37:09.784+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:37:09.773+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:35:55.942+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:35:55.918+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:35:03.098+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:35:03.071+0100"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:34:01.430+0100"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:34:01.420+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:33:19.795+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:32:47.333+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:31:57.749+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:30:10.740+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:26:30.764+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:25:50.994+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:25:16.602+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:24:48.531+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:24:16.383+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:23:35.152+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:22:48.134+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:21:18.651+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:20:56.905+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:20:10.361+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:16:06.706+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:15:26.596+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:04:22.819+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:03:30.816+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:02:43.378+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:02:06.413+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:01:27.344+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:00:59.786+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T12:00:21.382+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:59:36.966+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:23:02.181+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:22:27.321+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:21:50.777+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:19:42.734+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:18:55.445+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:17:34.310+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:16:11.377+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:14:32.670+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-10T11:13:51.666+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T17:26:01.885+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T17:02:04.201+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T17:01:27.722+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T17:00:17.623+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:58:22.655+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:57:22.348+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:55:59.229+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:51:23.219+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:48:07.944+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:47:43.991+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:46:22.646+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:44:47.093+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:44:14.873+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:43:41.493+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:35:08.258+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:33:04.145+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:31:05.436+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T16:29:36.258+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:51:03.175+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:50:22.572+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:49:01.414+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:30:22.198+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:29:31.139+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:24:43.513+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:23:59.681+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:23:11.837+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:07:57.836+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:07:25.268+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:06:09.436+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:04:29.143+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:04:05.809+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:03:22.504+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:02:03.806+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T13:01:29.580+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:52:12.781+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:47:35.930+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:45:32.869+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:44:03.461+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:41:14.456+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:40:49.633+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:40:16.761+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:39:09.302+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:38:25.261+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:37:10.068+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:28:56.868+0100"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="TetrisSolverCode" solutionName="solution1" date="2021-04-08T12:28:56.857+0100"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
